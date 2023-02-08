@@ -67,7 +67,9 @@ return require('packer').startup(function(use)
         config = function()
             require('Comment').setup()
         end
-    }
+    } -- Comment...
 
-    use 'onsails/lspkind.nvim'
+    use 'onsails/lspkind.nvim' -- Lspkind
+
+    use 'manzeloth/live-server' -- Live server for basic web
 end)
