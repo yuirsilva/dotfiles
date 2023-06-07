@@ -23,8 +23,6 @@ return {
 
     'onsails/lspkind.nvim',         -- Lspkind
 
-    'manzeloth/live-server',        -- Live server for basic web
-
     {
         'nvim-telescope/telescope.nvim',
         version = '0.1.1',
