@@ -9,9 +9,9 @@ return {
 
     'folke/zen-mode.nvim',          -- Zen-mode
 
-    'kyazdani42/nvim-web-devicons', -- File icons
+    'nvim-tree/nvim-web-devicons', -- File icons
 
-    'akinsho/nvim-bufferline.lua',  -- Bufferline
+    {'akinsho/bufferline.nvim', version = "*", dependencies = 'nvim-tree/nvim-web-devicons'}, -- Bufferline
 
     'lewis6991/gitsigns.nvim',      -- Git signs
 
@@ -67,6 +67,5 @@ return {
         end
     }, -- Comment...
 
-    { 'rose-pine/neovim', as = 'rose-pine' },
-
+    'sainnhe/gruvbox-material',
 }
