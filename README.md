@@ -1,4 +1,4 @@
-![powershell screenshot](./images/powershell.png)
+![powershell screenshot](./screenshots/powershell.png)
 
 ![nvim screenshot](./screenshots/neovim-1.png)
 
