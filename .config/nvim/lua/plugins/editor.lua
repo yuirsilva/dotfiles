@@ -13,6 +13,10 @@ return {
   },
 
   {
+    "ThePrimeagen/vim-be-good",
+  },
+
+  {
     "telescope.nvim",
     dependencies = {
       {
